@@ -7,3 +7,9 @@ export CMAKE_PREFIX_PATH=$(python -c "import torch; print(torch.utils.cmake_pref
 cmake -B build -S . -G Ninja
 cmake --build build
 ```
+
+# how to run
+
+```bash
+python test.py
+```
