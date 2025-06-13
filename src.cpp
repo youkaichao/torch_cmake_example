@@ -7,5 +7,5 @@ torch::Tensor sin_and_add(torch::Tensor x, torch::Tensor y) {
 }
 
 TORCH_LIBRARY(torch_extension, m) {
-    m.def("sin_and_add", &sin_and_add, "Compute sin(x) + y");
+    m.def("sin_and_add", &sin_and_add);
 } 
